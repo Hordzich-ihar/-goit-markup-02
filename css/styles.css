@@ -1,18 +1,17 @@
-body 
-{
+body {
     font-family: "Roboto", sans-serif;
-    background-color:  #ffffff
-color:# 434455
+    background-color: #FFFFFF;
+   color: #434455 ;
 }
 
 a {
     text-decoration: none;
 }
 ul,
-ol{
+ol {
     list-style: none;
 }
-button{
+button {
     cursor: pointer;
 }
 
@@ -75,7 +74,7 @@ color: #404bbf;
 }
 .nav-item-link-contacts:hover,
 .nav-item-link-contacts:focus{
-    clolor: #404bbf
+    color: #404bbf
 }
 
 .contacts {}
@@ -86,8 +85,9 @@ color: #404bbf;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        font-style: normal;
-}
+font-style: normal;
+        }
+
 .contacts-link:hover,
 .contacts-link:focus{
     color: #404bbf;
@@ -104,9 +104,9 @@ color: #404bbf;
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+        letter-spacing: 0.02em; 
+        color: #ffffff;
+        text-transform: capitalize;
 }
 
 .hero-btn {
@@ -114,7 +114,7 @@ color: #404bbf;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #fff;
+        color: #ffffff;
         background-color: #4d5ae5;
 }
 .hero-btn:hover,
@@ -185,14 +185,16 @@ color: #404bbf;
 
 /* #region portfolio */
 
-.Portfolio { 
+.portfolio { 
 font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
-.Portfolio-list {}
+.portfolio-list {}
 
 .portfolio-item {}
 
@@ -231,7 +233,7 @@ font-weight: 700;
         
 }
 
-.footer-logo-ctyle {
+.logo-styles {
 color: #f4f4fd;
 }
 
