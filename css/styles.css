@@ -102,10 +102,11 @@ color: #404bbf;
 /* #endregion */
 
 /* #region feature */
-.feature-list {}
+.feature-list {
+    background-color: #FFFFFF;
+}
 
 .feature-item {
-    background-color: #FFFFFF;
 }
 
 .feature-title {
