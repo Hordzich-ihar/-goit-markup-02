@@ -144,10 +144,11 @@ color: #404bbf;
 }
 
 .ourteam-list {
-background-color: #FFFFFF;
 }
 
-.ourteam-item {}
+.ourteam-item {
+    background-color:  #FFFFFF;
+}
 
 .ourteam-title {
     font-weight: 500;
